@@ -1,0 +1,11 @@
+{
+	"name": "nofp_bridge",
+	"description": "Bridges power-hungry MQTT into efficient MQTT.",
+	"mqtt_broker": "hal.maglab",
+	"mqtt_port": 1883,
+	"mqtt_timeout": 60,
+	"topic": "power/run",
+	"param_conv": [
+		["PWR_L3_W", "L3_W"]
+	]
+}
