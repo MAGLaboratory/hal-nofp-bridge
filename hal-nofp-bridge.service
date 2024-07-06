@@ -1,0 +1,13 @@
+[Unit]
+Description=MAG Laboratory HAL to TimeSeries Database Bridge
+
+[Service]
+User=brandon
+Group=brandon
+Restart=on-failure
+RestartSec=30s
+EnvironmentFile=/home/brandon/hal-nofp-bridge/hal-nofp-bridge.env
+ExecStart=/home/brandon/hal-nofp-bridge/hal-nofp-bridge.py
+
+[Install]
+WantedBy=multi-user.target

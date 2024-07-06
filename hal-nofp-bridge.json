@@ -7,5 +7,6 @@
 	"topic": "power/run",
 	"param_conv": [
 		["PWR_L3_W", "L3_W"]
-	]
+	],
+	"loglevel": "info"
 }
